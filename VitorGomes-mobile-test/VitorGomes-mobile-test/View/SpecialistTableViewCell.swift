@@ -2,35 +2,37 @@
 //  SpecialistTableViewCell.swift
 //  VitorGomes-mobile-test
 //
-//  Created by Vitor Gomes on 06/05/21.
+//  Created by Vitor Gomes on 15/05/21.
 //
 
 import UIKit
 
 class SpecialistTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var ivInitials: UIImageView!
     @IBOutlet weak var lbName: UILabel!
     @IBOutlet weak var lbDistance: UILabel!
     @IBOutlet weak var lbDetails: UILabel!
-    @IBOutlet weak var lbInitialLetter: UILabel! // Since project doesn't use real images only first letter of the name, decided make it as label.
+    @IBOutlet weak var btChat: UIButton!
+    @IBOutlet weak var btCall: UIButton!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        //Setting rounded corners to both buttons
+        btChat.layer.cornerRadius = 16
+        btCall.layer.cornerRadius = 16
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
-    @IBAction func chat(_ sender: UIButton) {
-        
+    @IBAction func chatPressed(_ sender: UIButton) {
+        //No implementation needed.
     }
     
-    @IBAction func call(_ sender: UIButton) {
-        
+    @IBAction func callPressed(_ sender: UIButton) {
+        //No implementation needed.
     }
-    
 }

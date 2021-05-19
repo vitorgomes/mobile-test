@@ -1,0 +1,20 @@
+PODS:
+  - InitialsImageView (0.7.0)
+  - Kingfisher (6.3.0)
+
+DEPENDENCIES:
+  - InitialsImageView (~> 0.7)
+  - Kingfisher (~> 6.3)
+
+SPEC REPOS:
+  trunk:
+    - InitialsImageView
+    - Kingfisher
+
+SPEC CHECKSUMS:
+  InitialsImageView: 7a416d36fc6df5434198664db28a3ffb0228426d
+  Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+
+PODFILE CHECKSUM: 4954830054f7f1482777130989e618589871a098
+
+COCOAPODS: 1.10.1

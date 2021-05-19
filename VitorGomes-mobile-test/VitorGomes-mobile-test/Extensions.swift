@@ -8,6 +8,8 @@
 import Foundation
 import UIKit
 
+/* Extension to make UIColor accepts HEX colors strings.
+ hexString function will be accepted in the project wide.*/
 extension UIColor {
     
     convenience init(hexString: String, alpha: CGFloat = 1.0) {

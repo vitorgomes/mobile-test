@@ -11,7 +11,8 @@ struct SpecialistsData: Codable {
     
     var name: String = ""
     var distance: Double?
-    var actioins: Actions
+    var description: String = ""
+    var actions: Actions
 }
 
 struct Actions: Codable {

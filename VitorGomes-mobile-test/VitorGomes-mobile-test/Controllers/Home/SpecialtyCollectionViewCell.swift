@@ -12,5 +12,4 @@ class SpecialtyCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var ivSpecialtyLogo: UIImageView!
     @IBOutlet weak var lbSpecialtyName: UILabel!
     @IBOutlet weak var lbQuantity: UILabel!
-    
 }

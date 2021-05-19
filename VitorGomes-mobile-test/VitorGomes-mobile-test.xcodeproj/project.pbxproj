@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68A076EDFB9067EE2DFEBFFD /* Pods_VitorGomes_mobile_test_VitorGomes_mobile_testUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8AFE6FB5F31ABBE6B6B160 /* Pods_VitorGomes_mobile_test_VitorGomes_mobile_testUITests.framework */; };
+		8E51332492FFC6B6DAE3197E /* Pods_VitorGomes_mobile_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA810007BAD5B235C27D20F /* Pods_VitorGomes_mobile_testTests.framework */; };
 		E71E649726473B3C00C12239 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71E649626473B3B00C12239 /* Extensions.swift */; };
 		E7288D6B264439440006032C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7288D6A264439440006032C /* AppDelegate.swift */; };
 		E7288D6D264439440006032C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7288D6C264439440006032C /* SceneDelegate.swift */; };
@@ -19,11 +21,13 @@
 		E7288DAF2644876B0006032C /* SpecialtyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7288DAE2644876B0006032C /* SpecialtyCollectionViewCell.swift */; };
 		E7288DB7264487AF0006032C /* NeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7288DB6264487AF0006032C /* NeedCollectionViewCell.swift */; };
 		E7288DC0264488390006032C /* SpecialistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7288DBF264488390006032C /* SpecialistsViewController.swift */; };
-		E7288DC6264488910006032C /* SpecialistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7288DC5264488910006032C /* SpecialistTableViewCell.swift */; };
 		E7288DCB2644AC030006032C /* HomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7288DCA2644AC030006032C /* HomeData.swift */; };
 		E7288DD02644AC250006032C /* SpecialistsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7288DCF2644AC250006032C /* SpecialistsData.swift */; };
 		E7288DD92644B4810006032C /* HomeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7288DD82644B4810006032C /* HomeManager.swift */; };
 		E7288DDE2644B4930006032C /* SpecialistsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7288DDD2644B4930006032C /* SpecialistsManager.swift */; };
+		E7C8BE632650784B0018CBA2 /* SpecialistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C8BE612650784B0018CBA2 /* SpecialistTableViewCell.swift */; };
+		E7C8BE642650784B0018CBA2 /* SpecialistTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7C8BE622650784B0018CBA2 /* SpecialistTableViewCell.xib */; };
+		F8F9F3224AD8FE952CFFE231 /* Pods_VitorGomes_mobile_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BEDB9C109D5A869F31FC2B /* Pods_VitorGomes_mobile_test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16E93F86B5ED18B66D08483F /* Pods-VitorGomes-mobile-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VitorGomes-mobile-test.debug.xcconfig"; path = "Target Support Files/Pods-VitorGomes-mobile-test/Pods-VitorGomes-mobile-test.debug.xcconfig"; sourceTree = "<group>"; };
+		47F73F57CAF2010E0DEE6A04 /* Pods-VitorGomes-mobile-testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VitorGomes-mobile-testTests.debug.xcconfig"; path = "Target Support Files/Pods-VitorGomes-mobile-testTests/Pods-VitorGomes-mobile-testTests.debug.xcconfig"; sourceTree = "<group>"; };
+		58A6415D9B7C297055410A1F /* Pods-VitorGomes-mobile-test-VitorGomes-mobile-testUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VitorGomes-mobile-test-VitorGomes-mobile-testUITests.release.xcconfig"; path = "Target Support Files/Pods-VitorGomes-mobile-test-VitorGomes-mobile-testUITests/Pods-VitorGomes-mobile-test-VitorGomes-mobile-testUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ABA810007BAD5B235C27D20F /* Pods_VitorGomes_mobile_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VitorGomes_mobile_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEAAEFA967349EE2733B2423 /* Pods-VitorGomes-mobile-testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VitorGomes-mobile-testTests.release.xcconfig"; path = "Target Support Files/Pods-VitorGomes-mobile-testTests/Pods-VitorGomes-mobile-testTests.release.xcconfig"; sourceTree = "<group>"; };
+		C3BEDB9C109D5A869F31FC2B /* Pods_VitorGomes_mobile_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VitorGomes_mobile_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D07872C21C8D5F00C4E22468 /* Pods-VitorGomes-mobile-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VitorGomes-mobile-test.release.xcconfig"; path = "Target Support Files/Pods-VitorGomes-mobile-test/Pods-VitorGomes-mobile-test.release.xcconfig"; sourceTree = "<group>"; };
+		E698E0AA6B1219089C7F95AA /* Pods-VitorGomes-mobile-test-VitorGomes-mobile-testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VitorGomes-mobile-test-VitorGomes-mobile-testUITests.debug.xcconfig"; path = "Target Support Files/Pods-VitorGomes-mobile-test-VitorGomes-mobile-testUITests/Pods-VitorGomes-mobile-test-VitorGomes-mobile-testUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E71E649626473B3B00C12239 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E7288D67264439440006032C /* VitorGomes-mobile-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VitorGomes-mobile-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7288D6A264439440006032C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,11 +74,13 @@
 		E7288DAE2644876B0006032C /* SpecialtyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialtyCollectionViewCell.swift; sourceTree = "<group>"; };
 		E7288DB6264487AF0006032C /* NeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedCollectionViewCell.swift; sourceTree = "<group>"; };
 		E7288DBF264488390006032C /* SpecialistsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialistsViewController.swift; sourceTree = "<group>"; };
-		E7288DC5264488910006032C /* SpecialistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialistTableViewCell.swift; sourceTree = "<group>"; };
 		E7288DCA2644AC030006032C /* HomeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeData.swift; sourceTree = "<group>"; };
 		E7288DCF2644AC250006032C /* SpecialistsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialistsData.swift; sourceTree = "<group>"; };
 		E7288DD82644B4810006032C /* HomeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeManager.swift; sourceTree = "<group>"; };
 		E7288DDD2644B4930006032C /* SpecialistsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialistsManager.swift; sourceTree = "<group>"; };
+		E7C8BE612650784B0018CBA2 /* SpecialistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialistTableViewCell.swift; sourceTree = "<group>"; };
+		E7C8BE622650784B0018CBA2 /* SpecialistTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpecialistTableViewCell.xib; sourceTree = "<group>"; };
+		ED8AFE6FB5F31ABBE6B6B160 /* Pods_VitorGomes_mobile_test_VitorGomes_mobile_testUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VitorGomes_mobile_test_VitorGomes_mobile_testUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F9F3224AD8FE952CFFE231 /* Pods_VitorGomes_mobile_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E51332492FFC6B6DAE3197E /* Pods_VitorGomes_mobile_testTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,12 +104,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68A076EDFB9067EE2DFEBFFD /* Pods_VitorGomes_mobile_test_VitorGomes_mobile_testUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55454932EF4C005F47B43661 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3BEDB9C109D5A869F31FC2B /* Pods_VitorGomes_mobile_test.framework */,
+				ED8AFE6FB5F31ABBE6B6B160 /* Pods_VitorGomes_mobile_test_VitorGomes_mobile_testUITests.framework */,
+				ABA810007BAD5B235C27D20F /* Pods_VitorGomes_mobile_testTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D129B3432C116A0A1B497FDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16E93F86B5ED18B66D08483F /* Pods-VitorGomes-mobile-test.debug.xcconfig */,
+				D07872C21C8D5F00C4E22468 /* Pods-VitorGomes-mobile-test.release.xcconfig */,
+				E698E0AA6B1219089C7F95AA /* Pods-VitorGomes-mobile-test-VitorGomes-mobile-testUITests.debug.xcconfig */,
+				58A6415D9B7C297055410A1F /* Pods-VitorGomes-mobile-test-VitorGomes-mobile-testUITests.release.xcconfig */,
+				47F73F57CAF2010E0DEE6A04 /* Pods-VitorGomes-mobile-testTests.debug.xcconfig */,
+				AEAAEFA967349EE2733B2423 /* Pods-VitorGomes-mobile-testTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E7288D5E264439440006032C = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +141,8 @@
 				E7288D802644394A0006032C /* VitorGomes-mobile-testTests */,
 				E7288D8B2644394A0006032C /* VitorGomes-mobile-testUITests */,
 				E7288D68264439440006032C /* Products */,
+				D129B3432C116A0A1B497FDE /* Pods */,
+				55454932EF4C005F47B43661 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,6 +203,8 @@
 			isa = PBXGroup;
 			children = (
 				E7288D70264439440006032C /* Main.storyboard */,
+				E7C8BE612650784B0018CBA2 /* SpecialistTableViewCell.swift */,
+				E7C8BE622650784B0018CBA2 /* SpecialistTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,7 +223,6 @@
 			isa = PBXGroup;
 			children = (
 				E7288DBF264488390006032C /* SpecialistsViewController.swift */,
-				E7288DC5264488910006032C /* SpecialistTableViewCell.swift */,
 			);
 			path = Specialists;
 			sourceTree = "<group>";
@@ -202,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7288D912644394A0006032C /* Build configuration list for PBXNativeTarget "VitorGomes-mobile-test" */;
 			buildPhases = (
+				D1A4EA2DF0A7CACAFDCDDD4C /* [CP] Check Pods Manifest.lock */,
 				E7288D63264439440006032C /* Sources */,
 				E7288D64264439440006032C /* Frameworks */,
 				E7288D65264439440006032C /* Resources */,
+				324EFED4E561C9EBAC2E10D6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,6 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7288D942644394A0006032C /* Build configuration list for PBXNativeTarget "VitorGomes-mobile-testTests" */;
 			buildPhases = (
+				B1AC88E1BC733B69E40C9933 /* [CP] Check Pods Manifest.lock */,
 				E7288D792644394A0006032C /* Sources */,
 				E7288D7A2644394A0006032C /* Frameworks */,
 				E7288D7B2644394A0006032C /* Resources */,
@@ -237,9 +283,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7288D972644394A0006032C /* Build configuration list for PBXNativeTarget "VitorGomes-mobile-testUITests" */;
 			buildPhases = (
+				6437B2D99EEC856FD9576BB4 /* [CP] Check Pods Manifest.lock */,
 				E7288D842644394A0006032C /* Sources */,
 				E7288D852644394A0006032C /* Frameworks */,
 				E7288D862644394A0006032C /* Resources */,
+				7C48C6D9CFAE1BFE6F27AE17 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -298,6 +346,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7C8BE642650784B0018CBA2 /* SpecialistTableViewCell.xib in Resources */,
 				E7288D77264439490006032C /* LaunchScreen.storyboard in Resources */,
 				E7288D74264439490006032C /* Assets.xcassets in Resources */,
 				E7288D72264439440006032C /* Main.storyboard in Resources */,
@@ -320,6 +369,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		324EFED4E561C9EBAC2E10D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VitorGomes-mobile-test/Pods-VitorGomes-mobile-test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VitorGomes-mobile-test/Pods-VitorGomes-mobile-test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VitorGomes-mobile-test/Pods-VitorGomes-mobile-test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6437B2D99EEC856FD9576BB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VitorGomes-mobile-test-VitorGomes-mobile-testUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C48C6D9CFAE1BFE6F27AE17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VitorGomes-mobile-test-VitorGomes-mobile-testUITests/Pods-VitorGomes-mobile-test-VitorGomes-mobile-testUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VitorGomes-mobile-test-VitorGomes-mobile-testUITests/Pods-VitorGomes-mobile-test-VitorGomes-mobile-testUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VitorGomes-mobile-test-VitorGomes-mobile-testUITests/Pods-VitorGomes-mobile-test-VitorGomes-mobile-testUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1AC88E1BC733B69E40C9933 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VitorGomes-mobile-testTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1A4EA2DF0A7CACAFDCDDD4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VitorGomes-mobile-test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E7288D63264439440006032C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -329,13 +481,13 @@
 				E7288DB7264487AF0006032C /* NeedCollectionViewCell.swift in Sources */,
 				E7288D6D264439440006032C /* SceneDelegate.swift in Sources */,
 				E7288DC0264488390006032C /* SpecialistsViewController.swift in Sources */,
+				E7C8BE632650784B0018CBA2 /* SpecialistTableViewCell.swift in Sources */,
 				E7288DCB2644AC030006032C /* HomeData.swift in Sources */,
 				E7288DA6264486C80006032C /* HomeViewController.swift in Sources */,
 				E7288DD92644B4810006032C /* HomeManager.swift in Sources */,
 				E71E649726473B3C00C12239 /* Extensions.swift in Sources */,
 				E7288DD02644AC250006032C /* SpecialistsData.swift in Sources */,
 				E7288DAF2644876B0006032C /* SpecialtyCollectionViewCell.swift in Sources */,
-				E7288DC6264488910006032C /* SpecialistTableViewCell.swift in Sources */,
 				E7288DDE2644B4930006032C /* SpecialistsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +661,7 @@
 		};
 		E7288D922644394A0006032C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16E93F86B5ED18B66D08483F /* Pods-VitorGomes-mobile-test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -528,6 +681,7 @@
 		};
 		E7288D932644394A0006032C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D07872C21C8D5F00C4E22468 /* Pods-VitorGomes-mobile-test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -547,6 +701,7 @@
 		};
 		E7288D952644394A0006032C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47F73F57CAF2010E0DEE6A04 /* Pods-VitorGomes-mobile-testTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -569,6 +724,7 @@
 		};
 		E7288D962644394A0006032C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEAAEFA967349EE2733B2423 /* Pods-VitorGomes-mobile-testTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -591,6 +747,7 @@
 		};
 		E7288D982644394A0006032C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E698E0AA6B1219089C7F95AA /* Pods-VitorGomes-mobile-test-VitorGomes-mobile-testUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -611,6 +768,7 @@
 		};
 		E7288D992644394A0006032C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58A6415D9B7C297055410A1F /* Pods-VitorGomes-mobile-test-VitorGomes-mobile-testUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

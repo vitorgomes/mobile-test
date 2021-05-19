@@ -6,11 +6,11 @@
 //
 
 import UIKit
+import Kingfisher
 
 class HomeViewController: UIViewController {
 
     var homeData: [HomeData] = []
-//    var specialtyImages: [UIImage?] = []
     var homeManager = HomeManager()
     
     @IBOutlet weak var cvSpecialty: UICollectionView!
@@ -51,26 +51,14 @@ class HomeViewController: UIViewController {
             let vc = segue.destination as! SpecialistsViewController
             
             vc.modalPresentationStyle = .fullScreen
+            
+            // Sending data to specialists screen
+            let indexPath = cvSpecialty.indexPathsForSelectedItems?.first
+            let homeResult = homeData[indexPath!.row]
+            
+            vc.receivedSpecialtyName = homeResult.name
         }
     }
-    
-//    func getImage(from string: String) -> UIImage? {
-//
-//        guard let url = URL(string: string) else {return nil}
-//
-//        var image: UIImage? = nil
-//        do {
-//
-//            let data = try Data(contentsOf: url, options: [])
-//
-//            image = UIImage(data: data)
-//        } catch {
-//
-//            print(error.localizedDescription)
-//        }
-//
-//        return image
-//    }
 }
 
 //MARK: - EXTENSIONS
@@ -98,14 +86,13 @@ extension HomeViewController: UICollectionViewDataSource {
         let cell = cvSpecialty.dequeueReusableCell(withReuseIdentifier: "SpecialtyCollectionViewCell", for: indexPath) as! SpecialtyCollectionViewCell
         let specialty = homeData[indexPath.row]
 
+        // Still pending to implement the specialty logo using KingFisher pod
         cell.lbSpecialtyName.text = specialty.name
         
-        // Not working as expected yet
         switch specialty.name {
         case "Heart Specialist":
             
             cell.backgroundColor = UIColor(hexString: "#e5495e", alpha: 1.0)
-//            cell.ivSpecialtyLogo.image = UIImage(named: specialty.image_url)
         case "Dental Care":
             
             cell.backgroundColor = UIColor(hexString: "#f6af3d", alpha: 1.0)
@@ -116,7 +103,7 @@ extension HomeViewController: UICollectionViewDataSource {
             
             cell.backgroundColor = .white
         }
-
+        
         if specialty.total > 1 {
 
             cell.lbQuantity.text = "\(specialty.total) Doctors"
@@ -137,6 +124,7 @@ extension HomeViewController: UICollectionViewDelegate {
         
         if(collectionView == cvNeed) {
             
+            // Setting purple color when user click in any item o cvNeed
             let selectedCell:UICollectionViewCell = cvNeed.cellForItem(at: indexPath)!
             selectedCell.contentView.backgroundColor = UIColor(hexString: "ca49e5", alpha: 1.0)
         }
@@ -146,6 +134,7 @@ extension HomeViewController: UICollectionViewDelegate {
         
         if(collectionView == cvNeed) {
             
+            // Cleaning the color of the cell when it is deselected
             let cellToDeselect:UICollectionViewCell = cvNeed.cellForItem(at: indexPath)!
             cellToDeselect.contentView.backgroundColor = UIColor.clear
         }
@@ -154,7 +143,7 @@ extension HomeViewController: UICollectionViewDelegate {
 
 extension HomeViewController: UICollectionViewDelegateFlowLayout {
     
-    // Working with static value
+    // Working with static value, needs to change for dynamic
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         if(collectionView == cvNeed) {
